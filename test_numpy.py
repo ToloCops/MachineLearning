@@ -1,4 +1,6 @@
 import numpy as np
 
-id = np.diag(np.ones(3))
-print(id.T)
+A = np.arange(9).reshape(3, 3)
+print(A)
+print()
+print(A.shape)
